@@ -1605,7 +1605,7 @@ Encoding:base64
         except socket.error:
             print("\n----------------------------------------------------------------")
             print("  WARNING: API connection to the Bitmessage client has failed.")
-            print("Your settings may be incorrect or Bitmessage may need restarted.")
+            print("Your settings may be incorrect or Bitmessage may need to be restarted.")
             print("        To resolve incorrect settings, use 'bmSettings'.")
             print("----------------------------------------------------------------")
             if self.bmActive:
